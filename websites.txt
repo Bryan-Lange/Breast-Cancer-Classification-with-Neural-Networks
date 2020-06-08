@@ -1,0 +1,27 @@
+
+https://www.kaggle.com/vbookshelf/part-1-breast-cancer-analyzer-web-app
+
+https://cv-tricks.com/keras/understand-implement-resnets/
+
+https://www.youtube.com/watch?v=NSSOyhJBmWY -- python image with breast cancer detection text
+
+https://www.pyimagesearch.com/2019/02/18/breast-cancer-classification-with-keras-and-deep-learning/ - keras breast cancer logo pic
+
+https://knappily.com/technology/ai-beats-doctors-in-detecting-breast-cancer-137 -- robot detecting 
+
+https://onlinelibrary.wiley.com/doi/10.1002/path.4840 - Breast Carcinoma Progression
+
+https://www.cognizant.com/whitepapers/applying-deep-learning-to-transform-breast-cancer-diagnosis-codex4672.pdf - biopsy process
+
+https://www.researchgate.net/figure/Image-patch-sampling-process-The-original-WSI-with-manual-annotations-from-pathologists_fig2_263052166/download - whole slide image
+
+https://brohrer.github.io/convert_rgb_to_grayscale.html - rgb_array photo
+
+https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9041/904103/Automatic-detection-of-invasive-ductal-carcinoma-in-whole-slide-images/10.1117/12.2043872.short 
+
+the above is the neural net model image 
+
+https://towardsdatascience.com/transfer-learning-for-image-classification-using-keras-c47ccf09c8c8 - imagenet pic
+
+https://medcitynews.com/2020/01/googles-ai-beats-humans-at-detecting-breast-cancer-sometimes/ - ai_news
+
