@@ -35,7 +35,7 @@
     **Using histopathological images, can we train a neural network to accurately detect the presence of invasive ductal carcinoma?**
 
 ---
-## Data Information
+### Data Information
 
 The original dataset consisted of 162 whole mount slide images of Breast Cancer (specifically Invasive Ductal Carcinoma) specimens scanned at 40x. From that, 277,524 patches of size 50  x 50 were extracted (198,738 IDC negative and 78,786 IDC positive).
 
@@ -51,13 +51,14 @@ Where u is the patient ID (10253_idx5), X is the x-coordinate of where this patc
 | Kaggle | 50x50 pixel image patches | [Link](https://www.kaggle.com/paultimothymooney/breast-histopathology-images)|
 
 ---
-## Data Preprocessing 
+### Data Preprocessing 
 - The images were scanned at 40x
 - Those images were then broken into 277,526 patches patches 
 - Each patch is then reshaped to be 50 x 50 pixels
+
 ![tissue](https://github.com/Bryan-Lange/Breast-Cancer-Classification-with-Neural-Networks/blob/master/presentation%20images/Image-patch-sampling-process-The-original-WSI-with-manual-annotations-from-pathologists.png)
 ---
-## Modeling Process
+### Modeling Process
 
 - Using random sampling, the classes are balanced before the modeling begins 
 
@@ -72,8 +73,11 @@ Where u is the patient ID (10253_idx5), X is the x-coordinate of where this patc
 - A GPU was utilized to help process the image data and speed up the models
 
 - CNN, Resnet50 and InceptionV3 models were used to classify IDC
+
+![model](https://github.com/Bryan-Lange/Breast-Cancer-Classification-with-Neural-Networks/blob/master/presentation%20images/Screen%20Shot%202020-06-03%20at%2010.39.03%20AM.png)
+
 ---
-## Key Findings
+### Key Findings
 
 - The learning rate is the most influential hyperparameter 
 
