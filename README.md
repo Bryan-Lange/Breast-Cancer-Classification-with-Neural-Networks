@@ -55,7 +55,7 @@ Where u is the patient ID (10253_idx5), X is the x-coordinate of where this patc
 - The images were scanned at 40x
 - Those images were then broken into 277,526 patches patches 
 - Each patch is then reshaped to be 50 x 50 pixels
-
+![tissue](https://github.com/Bryan-Lange/Breast-Cancer-Classification-with-Neural-Networks/blob/master/presentation%20images/Image-patch-sampling-process-The-original-WSI-with-manual-annotations-from-pathologists.png)
 ---
 ## Modeling Process
 
