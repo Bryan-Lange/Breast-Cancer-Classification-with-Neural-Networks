@@ -16,21 +16,15 @@
 
 -[Key observations from analysis](#Key-Findings "Go to Key-Findings")
 
--[Challenges and recommendations](#Obstacles-and-recommendations "Challenges")
+-[Challenges and recommendations](#Obstacles-and-recommendation "EDA")
 
 ### Introduction
 
-- About 1 in 8 U.S. women will develop breast cancer over the course of her lifetime
+- About 1 in 8 U.S. women will develop breast cancer over the course of their lifetime. The American Cancer Society estimates over 275,000 new cases in 2020 with over 40,000 deaths attributed to breast cancer.
 
-- The American Cancer Society estimates over 275,000 new cases in 2020 with over 40,000 deaths attributed to breast cancer
+- Breast Cancer has the second highest cancer death rate in American females (behind lung cancer.) There are over 3.5 million women with a history of breast cancer in the U.S.
 
-- Second highest cancer death rate in American females (behind lung cancer)
-
-- Over 3.5 million women with a history of breast cancer in the U.S.
-
-- Breast cancer can be non-invasive, which means it does not spread beyond the lobule or duct, or it can be invasive where it spreads beyond the duct into the normal tissue 
-
-- 80% of malignant breast cancers are Invasive Ductal Carcinoma (IDC) which can invade surrounding tissue, lymph nodes and possibly other areas of the body
+- Breast cancer can be non-invasive, which means it does not spread beyond the lobule or duct, or it can be invasive where it spreads beyond the duct into the normal tissue. 80% of malignant breast cancers are Invasive Ductal Carcinoma (IDC) which can invade surrounding tissue, lymph nodes and possibly other areas of the body
 
 ### Problem Statement
 - Invasive breast cancer detection can be a time consuming task
@@ -38,9 +32,7 @@
 - Errors can be made in the process and smaller malignant areas can be overlooked by the human eye 
 - Advancements in technology should be able to assist by automating part of the process and double checking the diagnosis given by the pathologist 
 
-
     **Using histopathological images, can we train a neural network to accurately detect the presence of invasive ductal carcinoma?**
-
 
 ---
 ## Data Information
@@ -73,13 +65,17 @@ Where u is the patient ID (10253_idx5), X is the x-coordinate of where this patc
 
 - My first attempt utilized Conv2D layers in a Sequential Model to help identify essential features that classify the images and dropouts were used to help avoid overfitting the model 
 
-- This is a binary classification problem and we want to produce a probability so the sigmoid activation layer is generally used for the output
+- This is a binary classification problem so the sigmoid activation layer is generally used for the output
 
 - Given the nature of the subject matter, our goal is to limit the number of false-negatives (recall) to ensure those with IDC do not walk away believing they are healthy 
+
+- A GPU was utilized to help process the image data and speed up the models
+
+- CNN, Resnet50 and InceptionV3 models were used to classify IDC
 ---
 ## Key Findings
 
-- The learning rate is the most influential hyperparameter
+- The learning rate is the most influential hyperparameter 
 
 - Trained models alleviate pathologist work and provide a second set of eyes
 
@@ -88,4 +84,8 @@ Where u is the patient ID (10253_idx5), X is the x-coordinate of where this patc
 ---
 ### Obstacles and recommendations
 
+- Computational power and sample size are citical for a good model
 
+- Model performance tends to taper and can be overfit with some transfer learning models 
+
+- Pathologists should consider automating the histopathological process 
