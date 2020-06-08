@@ -16,7 +16,7 @@
 
 -[Key observations from analysis](#Key-Findings "Go to Key-Findings")
 
--[Challenges and recommendations](#Obstacles-and-recommendation "EDA")
+-[Challenges and recommendations](#Obstacles-and-recommendations "Challenges")
 
 ### Introduction
 
