@@ -1,5 +1,5 @@
 # Using Neural Networks to Classify Breast Cancer 
-![header](https://https://https://github.com/Bryan-Lange/Breast-Cancer-Classification-with-Neural-Networks/blob/master/presentation%20images/breast_cancer_classification_header.jpg)
+![header](https://github.com/Bryan-Lange/Breast-Cancer-Classification-with-Neural-Networks/blob/master/presentation%20images/breast_cancer_classification_header.jpg)
 ---
 ## By: Bryan Lange - [LinkedIn](https://www.linkedin.com/in/bryanrobertlange) 
 
